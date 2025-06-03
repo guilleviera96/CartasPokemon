@@ -1,1 +1,2 @@
-# Este es mi README local definitivo
+# Juego de cartas Pokemon
+
