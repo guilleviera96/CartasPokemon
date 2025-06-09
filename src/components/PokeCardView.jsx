@@ -1,7 +1,6 @@
-import PokeCardGuillermoViera from "./PokeCard-GuillermoViera";
+import PokeCard from "./PokeCard-GuillermoViera";
 import { useEffect, useState } from "react";
-
-
+import Button from "./Button/Button";
 
 export default function PokeCardView() {
     const [pokemon, setPokemon] = useState(null);
@@ -12,6 +11,8 @@ export default function PokeCardView() {
             .then((data) => setPokemon(data));
     }, []);
     return (
-        <div>{pokemon && <PokeCardGuillermoViera pokemon={pokemon} />}</div>
+        <div>
+            <div>{pokemon && <PokeCard pokemon={pokemon} />}</div>
+        </div>
     );
 };

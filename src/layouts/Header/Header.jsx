@@ -1,15 +1,15 @@
-export default function Header(){
-    return(
-        <div>
-            <nav>
-                <a href="#">Equipo</a>
-                <a href="#">Mazo</a>
-                <a href="#">Equipo</a>
-                <a href="#">Favoritos</a>
-            </nav>
+import { Link } from 'react-router-dom'
+import './Header.css'
 
-        </div>
-
-    );
-
-};
+export default function Header() {
+  return (
+    <header className="headerContainer">
+      <nav className="navLinks">
+        <Link to="/">Inicio</Link>
+        <Link to="/booster">Abrir Cartas</Link>
+        <Link to="/equipo">Mi equipo</Link>
+        <Link to="/favoritos">Favoritos</Link>
+      </nav>
+    </header>
+  )
+}

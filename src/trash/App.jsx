@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router";
-import { PokeCardGuillermoViera, PokeCardView } from "./components";
-
+import { PokeCardView } from "./components";
 import Header from "./layouts/Header/Header";
 // function App() {
 

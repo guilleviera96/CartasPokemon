@@ -1,37 +1,40 @@
 .cardContainer {
     display: inline-block;
-    border: 5px solid rgb(217, 109, 109);
-    padding: 16px;
+    border: 3px solid rgb(217, 109, 109);  /* borde un poco más delgado */
+    padding: 10px;                         /* menos padding para compactar */
     border-radius: 9px;
-    max-width: 250px;
+    max-width: 180px;                      /* ancho más chico */
+    width: 30%;                         /* ancho fijo */
     background-color: rgba(243, 243, 243, 0.984);
-    margin-left: 300px;
-    
+    margin: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
 
-}
 .cardContainer ul {
-    padding-left: 0;    
-    margin-left: 0;     
-    margin-right: 0;    
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
+
 .cardContainer img {
-    width: 50%;       
-    display: block;    
-    margin: 0 auto;    
-    border-radius: 8px; 
+    width: 70%;            /* más chica que antes */
+    display: block;
+    margin: 0 auto 10px auto;  /* margin inferior para separar un poco */
+    border-radius: 8px;
 }
-h2, h3{
+
+h2, h3 {
     width: 100%;
     color: black;
     font-family: sans-serif;
     display: block;
     margin: 0 auto;
-    
+    font-size: 1rem;       /* tamaño de fuente un poco más pequeño */
 }
 
 li {
-
     list-style: none;
-    color: black; 
-    
+    color: black;
+    font-size: 0.85rem;    /* texto más pequeño en las listas */
 }
