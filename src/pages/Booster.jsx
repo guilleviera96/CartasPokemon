@@ -42,7 +42,7 @@ export default function Booster() {
 
         const ids = new Set();
         while (ids.size < 5) {
-            ids.add(Math.floor(Math.random() * 898) + 1);
+            ids.add(Math.floor(Math.random() * 1025) + 1);
         }
 
         const datos = await Promise.all(
