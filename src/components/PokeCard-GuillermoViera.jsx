@@ -2,12 +2,18 @@ import "./PokeCard-GuillermoViera.css";
 
 function PokeCardGuillermoViera({
   pokemon,
-  onSelect,                 // función cuando el usuario elige esta carta
-  isSelected = false,       // si ya fue seleccionada (por ejemplo en booster)
-  disabled = false,         // para bloquear el botón si ya se eligieron todas
-  showSelectButton = false, // controlamos si mostramos el botón de seleccionar
-  extraButtons = null,      // renderizado opcional para botones personalizados
-  ButtonComponent = 'button' // Componente botón personalizado, por defecto botón nativo
+  // función cuando el usuario elige esta carta
+  onSelect,                 
+  // si ya fue seleccionada (por ejemplo en booster)
+  isSelected = false,   
+  // para bloquear el botón si ya se eligieron todas    
+  disabled = false,    
+  // controlamos si mostramos el botón de seleccionar     
+  showSelectButton = false, 
+  // renderizado opcional para botones personalizados
+  extraButtons = null,    
+  // componente botón personalizado, por defecto botón nativo  
+  ButtonComponent =  "button"
 }) {
   return (
     <div className="cardContainer">
@@ -23,7 +29,7 @@ function PokeCardGuillermoViera({
         ))}
       </ul>
 
-      {/* Botón de selección para Booster */}
+      {/* botón de selección para booster */}
       {showSelectButton && (
         <ButtonComponent
           text={isSelected ? "Elegida" : "Elegir"}
