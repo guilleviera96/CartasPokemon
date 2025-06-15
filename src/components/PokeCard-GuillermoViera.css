@@ -1,10 +1,10 @@
 .cardContainer {
     display: inline-block;
-    border: 3px solid rgb(217, 109, 109);  /* borde un poco más delgado */
-    padding: 10px;                         /* menos padding para compactar */
+    border: 3px solid rgb(217, 109, 109);  
+    padding: 10px;                         
     border-radius: 9px;
-    max-width: 180px;                      /* ancho más chico */
-    width: 30%;                         /* ancho fijo */
+    max-width: 180px;                    
+    width: 30%;                       
     background-color: rgba(243, 243, 243, 0.984);
     margin: 10px;
     vertical-align: top;
@@ -18,9 +18,9 @@
 }
 
 .cardContainer img {
-    width: 70%;            /* más chica que antes */
+    width: 70%;           
     display: block;
-    margin: 0 auto 10px auto;  /* margin inferior para separar un poco */
+    margin: 0 auto 10px auto; 
     border-radius: 8px;
 }
 
@@ -30,11 +30,11 @@ h2, h3 {
     font-family: sans-serif;
     display: block;
     margin: 0 auto;
-    font-size: 1rem;       /* tamaño de fuente un poco más pequeño */
+    font-size: 1rem;       
 }
 
 li {
     list-style: none;
     color: black;
-    font-size: 0.85rem;    /* texto más pequeño en las listas */
+    font-size: 0.85rem;    
 }
