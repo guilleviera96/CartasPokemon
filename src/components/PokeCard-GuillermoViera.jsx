@@ -29,18 +29,18 @@ function PokeCardGuillermoViera({
         ))}
       </ul>
 
-      {/* botón de selección para booster */}
+      {/* seleccion para booster */}
       {showSelectButton && (
         <ButtonComponent
           text={isSelected ? "Elegida" : "Elegir"}
           onClick={() => onSelect(pokemon)}
-          colorClass={isSelected ? "selected" : "paginacion"}
+          colorClass={isSelected ? "selected" : "agregarEquipo"}
           disabled={disabled || isSelected}
           style={{ marginTop: "10px" }}
         />
       )}
 
-      {/* botones para agregar a equipo, fav*/}
+      {/*  agregar a equipo, fav*/}
       {extraButtons}
     </div>
   );

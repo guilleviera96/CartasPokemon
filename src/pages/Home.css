@@ -23,3 +23,11 @@
   color: #333;
   font-size: 1.1rem;
 }
+
+.alertaTexto {
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  color: #ad1414;
+  font-size: 1.5rem;
+}
